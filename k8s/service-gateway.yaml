@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: gateway
+  name: LoadBalancer
 spec:
   type: NodePort
   selector:
