@@ -1,4 +1,4 @@
-FROM risingstack/alpine:3.4-v6.9.4-4.2.0
+FROM node:8
 
 ENV PORT 3001
 
@@ -9,5 +9,4 @@ RUN npm install
 
 # Add your source files
 COPY . .
-
-CMD ["node", "."]
+CMD ["/bin/bash"]
